@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-03-30 Mon 10:03 -->
+<!-- 2020-03-30 Mon 11:13 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>An Introduction to Option Pricing Using Monte Carlo</title>
@@ -262,18 +262,19 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga0fd818">1. Price at Time T Under Black-Scholes</a>
+<li><a href="#orgd989f50">1. Price at Time T Under Black-Scholes</a>
 <ul>
-<li><a href="#org74658ac">1.1. Derivation of Stock Price at Time T \(S_T\)</a></li>
+<li><a href="#orgc93cf45">1.1. Calculating Standard Normal Random Variables</a></li>
+<li><a href="#orge7b750a">1.2. Derivation of Stock Price at Time T \(S_T\)</a></li>
 </ul>
 </li>
-<li><a href="#org6b6007f">2. Chalkboard</a></li>
+<li><a href="#orgf9e4c39">2. Chalkboard</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orga0fd818" class="outline-2">
-<h2 id="orga0fd818"><span class="section-number-2">1</span> Price at Time T Under Black-Scholes</h2>
+<div id="outline-container-orgd989f50" class="outline-2">
+<h2 id="orgd989f50"><span class="section-number-2">1</span> Price at Time T Under Black-Scholes</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 \[S_T = S_0\exp^{\left(r_f - \frac{\sigma^2}{2}\right) + \sigma \sqrt{T} Z}\]
@@ -284,14 +285,23 @@ where \(Z\) has a standard normal distribution.
 </p>
 </div>
 
-
-
-
-
-
-<div id="outline-container-org74658ac" class="outline-3">
-<h3 id="org74658ac"><span class="section-number-3">1.1</span> Derivation of Stock Price at Time T \(S_T\)</h3>
+<div id="outline-container-orgc93cf45" class="outline-3">
+<h3 id="orgc93cf45"><span class="section-number-3">1.1</span> Calculating Standard Normal Random Variables</h3>
 <div class="outline-text-3" id="text-1-1">
+<p>
+<code>=NORMSINV(RAND())</code>
+</p>
+</div>
+</div>
+
+
+
+
+
+
+<div id="outline-container-orge7b750a" class="outline-3">
+<h3 id="orge7b750a"><span class="section-number-3">1.2</span> Derivation of Stock Price at Time T \(S_T\)</h3>
+<div class="outline-text-3" id="text-1-2">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HOSf-lk9JOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
@@ -300,15 +310,15 @@ where \(Z\) has a standard normal distribution.
 
 
 
-<div id="outline-container-org6b6007f" class="outline-2">
-<h2 id="org6b6007f"><span class="section-number-2">2</span> Chalkboard</h2>
+<div id="outline-container-orgf9e4c39" class="outline-2">
+<h2 id="orgf9e4c39"><span class="section-number-2">2</span> Chalkboard</h2>
 <div class="outline-text-2" id="text-2">
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2020-03-30 Mon 10:03</p>
+<p class="date">Created: 2020-03-30 Mon 11:13</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
