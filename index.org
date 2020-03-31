@@ -10,7 +10,7 @@ https://www.5minutefinance.org/concepts/an-introduction-to-the-uses-of-monte-car
 
 * Price at Time T Under Black-Scholes
 
-$$S_T = S_0\exp^{\left(r_f - \frac{\sigma^2}{2}\right) + \sigma \sqrt{T} Z}$$
+$$S_T = S_0\exp^{\left(r_f - \frac{\sigma^2}{2}\right)T + \sigma \sqrt{T} Z}$$
 
 where $Z$ has a standard normal distribution.
 
